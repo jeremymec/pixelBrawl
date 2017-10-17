@@ -1,0 +1,20 @@
+2D platform fighting game.
+
+Two players, both play on the same machine locally.
+This means two player objects running at the same time.
+Different Inputs, so input must be variable.
+Could achieve this by passing in values, or through static data in a prefab.
+
+Players have lives / HP bar. Game is won when a player's HP reachs zero.
+
+Move and jump between platform objects. Cast spells and attack other players.
+
+Maps have platforms and can be stored in a unity scene which is loaded by base.
+
+BASE
+-----
+
+GAME
+PLAYER
+CAMERA
+ATTACKS
