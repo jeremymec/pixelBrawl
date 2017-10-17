@@ -13,8 +13,14 @@ Maps have platforms and can be stored in a unity scene which is loaded by base.
 
 BASE
 -----
+GAME - Needs to store information about current stage of game, if game won,
+tell scene to load level, start / quit game
 
-GAME
-PLAYER
-CAMERA
-ATTACKS
+SCENE - Needs to load a scene
+
+PLAYER - EACH player needs to store HP, movement (must be different), and if
+different playable characters needs to handle what type of player they are
+
+CAMERA - Needs to move according to positon in scene
+
+ATTACKS - Created by player, maybe created in the player class?
