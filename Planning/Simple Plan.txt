@@ -13,6 +13,10 @@ Maps have platforms and can be stored in a unity scene which is loaded by base.
 
 BASE
 -----
+
+ZEUS - Stores all the different controllers and starts the game. Present
+at the beginning
+
 GAME - Needs to store information about current stage of game, if game won,
 tell scene to load level, start / quit game
 
